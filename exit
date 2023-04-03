@@ -1,0 +1,705 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4665
+    [34mall[39m: [
+      [34;4mApp\Models\Product[39;24m {#4672
+        [34mid[39m: [35m1[39m,
+        [34mname[39m: "[32mharum Glasses[39m",
+        [34mslug[39m: "[32mharum-glasses[39m",
+        [34mdescription[39m: "[32mAlice thought the whole thing very absurd, but they were getting so far off). 'Oh, my poor little thing sat down a good deal worse off than before, as the large birds complained that they were trying which word sounded best. Some of the bill, "French, music, AND WASHING--extra."' 'You couldn't have wanted it much,'.[39m",
+        [34mprice[39m: "[32m98732.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4694
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4739
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4737
+                [34mproduct_id[39m: [35m1[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4740
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4736
+                [34mproduct_id[39m: [35m1[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4673
+        [34mid[39m: [35m2[39m,
+        [34mname[39m: "[32mbeatae Hat[39m",
+        [34mslug[39m: "[32mbeatae-hat[39m",
+        [34mdescription[39m: "[32mKing said to the Mock Turtle, and to her lips. 'I know SOMETHING interesting is sure to happen,' she said this last remark. 'Of course it is,' said the Queen, pointing to the Caterpillar, and the m--' But here, to Alice's side as she could do, lying down with wonder at the beginning,' the King had said that day. 'No.[39m",
+        [34mprice[39m: "[32m21213.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4670
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4741
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4735
+                [34mproduct_id[39m: [35m2[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4742
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4734
+                [34mproduct_id[39m: [35m2[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4674
+        [34mid[39m: [35m3[39m,
+        [34mname[39m: "[32mamet Pants[39m",
+        [34mslug[39m: "[32mamet-pants[39m",
+        [34mdescription[39m: "[32mAlice could think of nothing else to do, and perhaps after all it might injure the brain; But, now that I'm perfectly sure I have to turn round on its axis--' 'Talking of axes,' said the Duchess; 'I never heard of such a very curious thing, and she felt certain it must make me grow larger, I can remember feeling a.[39m",
+        [34mprice[39m: "[32m66097.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4660
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4743
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4733
+                [34mproduct_id[39m: [35m3[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4744
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4732
+                [34mproduct_id[39m: [35m3[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4675
+        [34mid[39m: [35m4[39m,
+        [34mname[39m: "[32mnam Socks[39m",
+        [34mslug[39m: "[32mnam-socks[39m",
+        [34mdescription[39m: "[32mHatter, and, just as well as she swam nearer to watch them, and just as I was sent for.' 'You ought to have lessons to learn! Oh, I shouldn't want YOURS: I don't keep the same as they would die. 'The trial cannot proceed,' said the Cat, and vanished. Alice was so long since she had brought herself down to look for.[39m",
+        [34mprice[39m: "[32m84895.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4662
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4745
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4731
+                [34mproduct_id[39m: [35m4[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4746
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4730
+                [34mproduct_id[39m: [35m4[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4676
+        [34mid[39m: [35m5[39m,
+        [34mname[39m: "[32mrerum Socks[39m",
+        [34mslug[39m: "[32mrerum-socks[39m",
+        [34mdescription[39m: "[32mSoup, so rich and green, Waiting in a very little way forwards each time and a long breath, and said nothing. 'This here young lady,' said the King: 'leave out that one of the tale was something like it,' said Alice, very earnestly. 'I've had nothing yet,' Alice replied very gravely. 'What else had you to get in?'.[39m",
+        [34mprice[39m: "[32m27388.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4663
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4747
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4729
+                [34mproduct_id[39m: [35m5[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4748
+              [34mid[39m: [35m5[39m,
+              [34mname[39m: "[32mofficia[39m",
+              [34mslug[39m: "[32mofficia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4728
+                [34mproduct_id[39m: [35m5[39m,
+                [34mcategory_id[39m: [35m5[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4677
+        [34mid[39m: [35m6[39m,
+        [34mname[39m: "[32mpraesentium Glasses[39m",
+        [34mslug[39m: "[32mpraesentium-glasses[39m",
+        [34mdescription[39m: "[32mRabbit was still in existence; 'and now for the rest of the court. All this time it all came different!' the Mock Turtle: 'crumbs would all come wrong, and she set off at once, with a pair of white kid gloves in one hand, and Alice called out 'The race is over!' and they lived at the sides of it, and yet it was.[39m",
+        [34mprice[39m: "[32m84434.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4661
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4749
+              [34mid[39m: [35m4[39m,
+              [34mname[39m: "[32mtempora[39m",
+              [34mslug[39m: "[32mtempora[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4727
+                [34mproduct_id[39m: [35m6[39m,
+                [34mcategory_id[39m: [35m4[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4750
+              [34mid[39m: [35m5[39m,
+              [34mname[39m: "[32mofficia[39m",
+              [34mslug[39m: "[32mofficia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4726
+                [34mproduct_id[39m: [35m6[39m,
+                [34mcategory_id[39m: [35m5[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4678
+        [34mid[39m: [35m7[39m,
+        [34mname[39m: "[32mquisquam Shirt[39m",
+        [34mslug[39m: "[32mquisquam-shirt[39m",
+        [34mdescription[39m: "[32mThe moment Alice appeared, she was playing against herself, for she felt sure she would manage it. 'They were learning to draw,' the Dormouse shall!' they both bowed low, and their slates and pencils had been jumping about like mad things all this grand procession, came THE KING AND QUEEN OF HEARTS. Alice was very.[39m",
+        [34mprice[39m: "[32m11416.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4659
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4751
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4725
+                [34mproduct_id[39m: [35m7[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4752
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4724
+                [34mproduct_id[39m: [35m7[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4679
+        [34mid[39m: [35m8[39m,
+        [34mname[39m: "[32mtemporibus Hat[39m",
+        [34mslug[39m: "[32mtemporibus-hat[39m",
+        [34mdescription[39m: "[32mRabbit's--'Pat! Pat! Where are you?' said Alice, who was a good deal to ME,' said the Dormouse. 'Don't talk nonsense,' said Alice to herself. 'I dare say there may be ONE.' 'One, indeed!' said Alice, in a rather offended tone, 'was, that the meeting adjourn, for the garden!' and she felt sure she would keep, through.[39m",
+        [34mprice[39m: "[32m39838.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4658
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4753
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4723
+                [34mproduct_id[39m: [35m8[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4754
+              [34mid[39m: [35m4[39m,
+              [34mname[39m: "[32mtempora[39m",
+              [34mslug[39m: "[32mtempora[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4722
+                [34mproduct_id[39m: [35m8[39m,
+                [34mcategory_id[39m: [35m4[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4680
+        [34mid[39m: [35m9[39m,
+        [34mname[39m: "[32mmolestiae Pants[39m",
+        [34mslug[39m: "[32mmolestiae-pants[39m",
+        [34mdescription[39m: "[32mWhite Rabbit blew three blasts on the twelfth?' Alice went on just as she could do to hold it. As soon as it lasted.) 'Then the eleventh day must have a trial: For really this morning I've nothing to what I eat" is the same tone, exactly as if she could for sneezing. There was a most extraordinary noise going on.[39m",
+        [34mprice[39m: "[32m50279.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4657
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4755
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4721
+                [34mproduct_id[39m: [35m9[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4756
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4720
+                [34mproduct_id[39m: [35m9[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4681
+        [34mid[39m: [35m10[39m,
+        [34mname[39m: "[32mlibero Shirt[39m",
+        [34mslug[39m: "[32mlibero-shirt[39m",
+        [34mdescription[39m: "[32mAlice replied thoughtfully. 'They have their tails in their mouths; and the others looked round also, and all of them didn't know how to begin.' He looked anxiously at the bottom of a muchness?' 'Really, now you ask me,' said Alice, who had meanwhile been examining the roses. 'Off with her head through the air! Do.[39m",
+        [34mprice[39m: "[32m95475.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4656
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4757
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4719
+                [34mproduct_id[39m: [35m10[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4758
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4718
+                [34mproduct_id[39m: [35m10[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4682
+        [34mid[39m: [35m11[39m,
+        [34mname[39m: "[32millum Glasses[39m",
+        [34mslug[39m: "[32millum-glasses[39m",
+        [34mdescription[39m: "[32mYET,' she said aloud. 'I shall sit here,' the Footman remarked, 'till tomorrow--' At this moment Alice felt that there ought! And when I find a number of executions the Queen say only yesterday you deserved to be a book of rules for shutting people up like a mouse, you know. Come on!' So they sat down, and felt quite.[39m",
+        [34mprice[39m: "[32m70609.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4655
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4759
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4717
+                [34mproduct_id[39m: [35m11[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4760
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4716
+                [34mproduct_id[39m: [35m11[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4683
+        [34mid[39m: [35m12[39m,
+        [34mname[39m: "[32mneque Sweater[39m",
+        [34mslug[39m: "[32mneque-sweater[39m",
+        [34mdescription[39m: "[32mCanary called out 'The Queen! The Queen!' and the little golden key, and unlocking the door of which was lit up by two guinea-pigs, who were giving it something out of its right ear and left foot, so as to go on in a melancholy tone: 'it doesn't seem to put down the chimney?--Nay, I shan't! YOU do it!--That I won't.[39m",
+        [34mprice[39m: "[32m73405.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4654
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4761
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4715
+                [34mproduct_id[39m: [35m12[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4762
+              [34mid[39m: [35m4[39m,
+              [34mname[39m: "[32mtempora[39m",
+              [34mslug[39m: "[32mtempora[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4714
+                [34mproduct_id[39m: [35m12[39m,
+                [34mcategory_id[39m: [35m4[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4684
+        [34mid[39m: [35m13[39m,
+        [34mname[39m: "[32mdolorem Socks[39m",
+        [34mslug[39m: "[32mdolorem-socks[39m",
+        [34mdescription[39m: "[32mAlice. 'Why?' 'IT DOES THE BOOTS AND SHOES.' the Gryphon hastily. 'Go on with the dream of Wonderland of long ago: and how she would get up and rubbed its eyes: then it watched the White Rabbit blew three blasts on the breeze that followed them, the melancholy words:-- 'Soo--oop of the Queen was to get into the.[39m",
+        [34mprice[39m: "[32m54168.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4653
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4763
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4713
+                [34mproduct_id[39m: [35m13[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4764
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4712
+                [34mproduct_id[39m: [35m13[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4685
+        [34mid[39m: [35m14[39m,
+        [34mname[39m: "[32mquidem Hat[39m",
+        [34mslug[39m: "[32mquidem-hat[39m",
+        [34mdescription[39m: "[32mThese words were followed by a very little! Besides, SHE'S she, and I'm I, and--oh dear, how puzzling it all came different!' the Mock Turtle Soup is made from,' said the Cat, 'a dog's not mad. You grant that?' 'I suppose they are the jurors.' She said the White Rabbit: it was only a mouse that had made the whole.[39m",
+        [34mprice[39m: "[32m3076.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4652
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4765
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4711
+                [34mproduct_id[39m: [35m14[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4766
+              [34mid[39m: [35m4[39m,
+              [34mname[39m: "[32mtempora[39m",
+              [34mslug[39m: "[32mtempora[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4710
+                [34mproduct_id[39m: [35m14[39m,
+                [34mcategory_id[39m: [35m4[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4686
+        [34mid[39m: [35m15[39m,
+        [34mname[39m: "[32mest Shirt[39m",
+        [34mslug[39m: "[32mest-shirt[39m",
+        [34mdescription[39m: "[32mAlice; 'all I know all sorts of things, and she, oh! she knows such a thing before, and she hurried out of its mouth, and its great eyes half shut. This seemed to Alice again. 'No, I didn't,' said Alice: 'three inches is such a thing as a cushion, resting their elbows on it, and behind it was empty: she did not much.[39m",
+        [34mprice[39m: "[32m75461.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4651
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4767
+              [34mid[39m: [35m4[39m,
+              [34mname[39m: "[32mtempora[39m",
+              [34mslug[39m: "[32mtempora[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4709
+                [34mproduct_id[39m: [35m15[39m,
+                [34mcategory_id[39m: [35m4[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4768
+              [34mid[39m: [35m5[39m,
+              [34mname[39m: "[32mofficia[39m",
+              [34mslug[39m: "[32mofficia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4708
+                [34mproduct_id[39m: [35m15[39m,
+                [34mcategory_id[39m: [35m5[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4687
+        [34mid[39m: [35m16[39m,
+        [34mname[39m: "[32mdolores Pants[39m",
+        [34mslug[39m: "[32mdolores-pants[39m",
+        [34mdescription[39m: "[32mSo she began: 'O Mouse, do you know about this business?' the King hastily said, and went stamping about, and shouting 'Off with her head!' the Queen had never had fits, my dear, YOU must cross-examine the next moment a shower of little birds and beasts, as well as I tell you!' But she did not get dry again: they had.[39m",
+        [34mprice[39m: "[32m46103.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4036
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4769
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4707
+                [34mproduct_id[39m: [35m16[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4770
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4704
+                [34mproduct_id[39m: [35m16[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4688
+        [34mid[39m: [35m17[39m,
+        [34mname[39m: "[32mtempore Glasses[39m",
+        [34mslug[39m: "[32mtempore-glasses[39m",
+        [34mdescription[39m: "[32mAlice replied thoughtfully. 'They have their tails in their mouths; and the fan, and skurried away into the garden, and marked, with one eye; 'I seem to put the Dormouse denied nothing, being fast asleep. 'After that,' continued the Pigeon, but in a tone of great curiosity. 'Soles and eels, of course,' the Gryphon.[39m",
+        [34mprice[39m: "[32m37761.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4439
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4771
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4706
+                [34mproduct_id[39m: [35m17[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4772
+              [34mid[39m: [35m4[39m,
+              [34mname[39m: "[32mtempora[39m",
+              [34mslug[39m: "[32mtempora[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4705
+                [34mproduct_id[39m: [35m17[39m,
+                [34mcategory_id[39m: [35m4[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4689
+        [34mid[39m: [35m18[39m,
+        [34mname[39m: "[32mrem Pants[39m",
+        [34mslug[39m: "[32mrem-pants[39m",
+        [34mdescription[39m: "[32mThe long grass rustled at her feet in the flurry of the words 'DRINK ME' beautifully printed on it except a tiny golden key, and when she next peeped out the words: 'Where's the other side, the puppy made another rush at the top of it. She felt very lonely and low-spirited. In a little bit, and said 'No, never').[39m",
+        [34mprice[39m: "[32m70540.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4440
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4773
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4703
+                [34mproduct_id[39m: [35m18[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4774
+              [34mid[39m: [35m3[39m,
+              [34mname[39m: "[32mnon[39m",
+              [34mslug[39m: "[32mnon[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4702
+                [34mproduct_id[39m: [35m18[39m,
+                [34mcategory_id[39m: [35m3[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4690
+        [34mid[39m: [35m19[39m,
+        [34mname[39m: "[32mdeleniti Sweater[39m",
+        [34mslug[39m: "[32mdeleniti-sweater[39m",
+        [34mdescription[39m: "[32mThe door led right into a cucumber-frame, or something of the shepherd boy--and the sneeze of the bottle was NOT marked 'poison,' it is almost certain to disagree with you, sooner or later. However, this bottle was a good deal frightened at the Hatter, 'you wouldn't talk about cats or dogs either, if you were down.[39m",
+        [34mprice[39m: "[32m53383.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#3703
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4775
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4701
+                [34mproduct_id[39m: [35m19[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4776
+              [34mid[39m: [35m2[39m,
+              [34mname[39m: "[32mquia[39m",
+              [34mslug[39m: "[32mquia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4700
+                [34mproduct_id[39m: [35m19[39m,
+                [34mcategory_id[39m: [35m2[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Product[39;24m {#4691
+        [34mid[39m: [35m20[39m,
+        [34mname[39m: "[32mvoluptatem Pants[39m",
+        [34mslug[39m: "[32mvoluptatem-pants[39m",
+        [34mdescription[39m: "[32mMock Turtle. 'And how many miles I've fallen by this time). 'Don't grunt,' said Alice; 'that's not at all a pity. I said "What for?"' 'She boxed the Queen's voice in the sand with wooden spades, then a great thistle, to keep herself from being run over; and the whole party look so grave that she had drunk half the.[39m",
+        [34mprice[39m: "[32m74669.00[39m",
+        [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+        [34mcategories[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4692
+          [34mall[39m: [
+            [34;4mApp\Models\Category[39;24m {#4777
+              [34mid[39m: [35m1[39m,
+              [34mname[39m: "[32mnostrum[39m",
+              [34mslug[39m: "[32mnostrum[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4699
+                [34mproduct_id[39m: [35m20[39m,
+                [34mcategory_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Category[39;24m {#4778
+              [34mid[39m: [35m5[39m,
+              [34mname[39m: "[32mofficia[39m",
+              [34mslug[39m: "[32mofficia[39m",
+              [34mcreated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mupdated_at[39m: "[32m2023-04-03 21:00:25[39m",
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#4698
+                [34mproduct_id[39m: [35m20[39m,
+                [34mcategory_id[39m: [35m5[39m,
+              },
+            },
+          ],
+        },
+      },
+    ],
+  }
+
