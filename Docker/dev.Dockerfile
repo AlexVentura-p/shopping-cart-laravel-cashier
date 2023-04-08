@@ -24,3 +24,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 #set permissions for folders in docker
 #chown -R www-data:www-data storage/logs
 #chown -R www-data:www-data storage/framework
+
+#install npm builds
+#npm install
+#npm run dev / npm run build
