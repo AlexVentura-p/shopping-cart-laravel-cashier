@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Stripe\StripeController;
 use App\Http\Controllers\Web\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,12 +16,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('products',[ProductController::class,'index']);
+Route::get('products',[ProductController::class,'index'])->name('home');
 Route::get('products/{product:slug}',[ProductController::class,'show']);
+
+Route::post('checkout',[StripeController::class,'checkout']);
 
 Route::get('/', function () {
     return view('welcome');
 });
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
