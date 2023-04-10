@@ -20,7 +20,7 @@
                                 type="submit">
                                 Comprar
                             </button>
-                            <input type="number" name="quantity" value="0" min="1" step="1" class="ml-3  w-20 px-3 py-1.5 text-gray-700 rounded-lg border  border-blue-600 rounded">
+                            <input type="number" name="quantity" value="0" min="1" step="1" class="ml-3  w-20 px-3 py-1.5 text-gray-700 border  border-blue-600 rounded">
                         </div>
                     </form>
                 </div>
