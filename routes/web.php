@@ -16,14 +16,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('products',[ProductController::class,'index'])->name('home');
-Route::get('products/{product:slug}',[ProductController::class,'show']);
 
-Route::post('checkout',[StripeController::class,'checkout']);
+Route::get('products', [ProductController::class, 'index']);
+Route::get('products/{product:slug}', [ProductController::class, 'show']);
+
+Route::middleware('auth')->group(function () {
+    Route::post('checkout', [StripeController::class, 'checkout']);
+    Route::get('checkout-success', [StripeController::class, 'success']);
+});
+
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('app');
+})->name('home');
 
 
 Route::get('/dashboard', function () {
@@ -36,4 +41,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

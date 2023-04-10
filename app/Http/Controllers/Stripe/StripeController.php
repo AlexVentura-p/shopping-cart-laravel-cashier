@@ -55,6 +55,14 @@ class StripeController extends Controller
         $product = Product::findorFail($data['product_id']);
         
         return $request->user()
-            ->checkoutCharge($product->price * 100, $product->name, $data['quantity']);
+            ->checkoutCharge($product->price * 100, $product->name, $data['quantity'],[
+                'success_url' => url('checkout-success'),
+                'cancel_url' => url()->previous()
+            ]);
+    }
+
+    public function success()
+    {
+        return view('cashier.stripe.single-product-success');
     }
 }

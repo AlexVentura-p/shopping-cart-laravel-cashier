@@ -11,7 +11,7 @@ class ProductController extends Controller
     
     public function index()
     {
-        return view('app',[
+        return view('products.single-product-checkout',[
             'products' => Product::all()
         ]);
     }
