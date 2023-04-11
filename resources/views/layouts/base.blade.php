@@ -10,7 +10,7 @@
         
         @vite(['resources/css/app.css'])
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
-        
+        @yield('custom-head')
     </head>
 
     <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">

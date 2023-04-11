@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Stripe\StripeController;
 use App\Http\Controllers\Web\ProductController;
+use App\Http\Controllers\Web\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,6 +25,10 @@ Route::middleware('auth')->group(function () {
     Route::post('checkout', [StripeController::class, 'checkout']);
     Route::get('checkout-success', [StripeController::class, 'success']);
 });
+
+Route::get('plans',[SubscriptionController::class,'index']);
+
+Route::post('subscribe',[SubscriptionController::class,'subscribe']);
 
 
 Route::get('/', function () {

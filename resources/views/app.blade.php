@@ -29,7 +29,7 @@
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full md:ml-16 items-center  px-6 tracking-wide">
                             <p class="text-black text-4xl my-4 font-bold">Subcriptions payment - Demo</p>
-                            <a class="text-2xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">TRY</a>
+                            <a class="text-2xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="{{ url('plans') }}">TRY</a>
                         </div>
                     </div>
 
