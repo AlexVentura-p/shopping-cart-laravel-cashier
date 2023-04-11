@@ -12,8 +12,8 @@ class SubscriptionController extends Controller
         return view('subscriptions.plans');
     }
 
-    public function subscribe()
+    public function subscribe(Request $request)
     {
-        
+        return $request->user()->checkout('price_1MvWx5GMeX7S2HRxLsgSjuya');
     }
 }

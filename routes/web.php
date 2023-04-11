@@ -24,11 +24,12 @@ Route::get('products/{product:slug}', [ProductController::class, 'show']);
 Route::middleware('auth')->group(function () {
     Route::post('checkout', [StripeController::class, 'checkout']);
     Route::get('checkout-success', [StripeController::class, 'success']);
+    Route::post('subscribe',[SubscriptionController::class,'subscribe']);
 });
 
 Route::get('plans',[SubscriptionController::class,'index']);
 
-Route::post('subscribe',[SubscriptionController::class,'subscribe']);
+
 
 
 Route::get('/', function () {
