@@ -1,0 +1,49 @@
+STRIPE CLI
+apt-get update
+apt-get install gnupg sudo
+
+Add Stripe CLI’s GPG key to the apt sources keyring:
+
+curl -s https://packages.stripe.dev/api/security/keypair/stripe-cli-gpg/public | gpg --dearmor | sudo tee /usr/share/keyrings/stripe.gpg
+
+Add CLI’s apt repository to the apt sources list:
+
+echo "deb [signed-by=/usr/share/keyrings/stripe.gpg] https://packages.stripe.dev/stripe-cli-debian-local stable main" | sudo tee -a /etc/apt/sources.list.d/stripe.list
+
+Update the package list:
+sudo apt update
+
+Install the CLI:
+
+sudo apt install stripe
+
+Log in to the CLI
+Login and authenticate your Stripe user Account to generate a set of restricted keys. To learn more, see Stripe CLI keys and permissions.
+
+stripe login
+
+Press the Enter key on your keyboard to complete the authentication process in your browser.
+
+Output
+Your pairing code is: enjoy-enough-outwit-win
+This pairing code verifies your authentication with Stripe.
+Press Enter to open the browser or visit https://dashboard.stripe.com/stripecli/confirm_auth?t=THQdJfL3x12udFkNorJL8OF1iFlN8Az1 (^C to quit)
+
+Optionally, if you don’t want to use a browser, use the --interactive flag to authenticate with an existing API secret key or restricted key. This can be helpful when authenticating to the CLI without a browser, such as in a CI/CD pipeline.
+
+stripe login --interactive
+
+Optionally, use the --api-key flag to specify your API secret key inline each time you send a request.
+
+stripe login --api-key sk_test_51MuljDGMeX7S2HRxjmDzKDhZMQ3FVE9wPp8SE8fAWj
+
+TO START LISTEN TO STRIPE WEBHOOK PORT, SO SUBSCRIPTIONS MADE ON STRIPE ARE ALSO SAVED ON DATABASE
+
+---if using stripe cli from inside a docker container-----
+stripe listen --forward-to my-server-container-name:80/stripe/webhook
+
+---outside docker---
+stripe listen --forward-to localhost:8080/stripe/webhook
+
+
+

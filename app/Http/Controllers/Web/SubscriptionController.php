@@ -14,6 +14,12 @@ class SubscriptionController extends Controller
 
     public function subscribe(Request $request)
     {
-        return $request->user()->checkout('price_1MvWx5GMeX7S2HRxLsgSjuya');
+        $plan = $request->validate([
+            'plan' => ['required'],
+        ]);
+
+        return $request->user()
+        ->newSubscription($plan['plan'], 'price_1MvWx5GMeX7S2HRxLsgSjuya')
+        ->checkout();
     }
 }
