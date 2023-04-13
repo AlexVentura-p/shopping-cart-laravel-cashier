@@ -12,8 +12,13 @@
 
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full  md:ml-16 items-center px-6 tracking-wide">
-                            <p class="text-black text-4xl my-4 font-bold">Single Charge Checkouts - Demo</p>
-                            <a class="text-2xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="{{ url('products') }}">TRY</a>
+                            <p class="text-black text-5xl my-4 font-bold">Single Charge Checkouts - Demo</p>
+                            <a class="text-2xl inline-block no-underline   leading-relaxed hover:text-black hover:border-black" href="{{ url('plans') }}">
+                                <button
+                                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md">
+                                    TRY
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -28,8 +33,13 @@
 
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full md:ml-16 items-center  px-6 tracking-wide">
-                            <p class="text-black text-4xl my-4 font-bold">Subcriptions payment - Demo</p>
-                            <a class="text-2xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="{{ url('plans') }}">TRY</a>
+                            <p class="text-black text-5xl my-4 font-bold">Subcriptions payment - Demo</p> 
+                            <a class="text-2xl inline-block no-underline   leading-relaxed hover:text-black hover:border-black" href="{{ url('plans') }}">
+                                <button
+                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md">
+                                TRY
+                            </button>
+                            </a>
                         </div>
                     </div>
 
