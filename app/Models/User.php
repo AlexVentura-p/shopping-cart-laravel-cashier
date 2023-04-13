@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Cashier\Billable;
+use Laravel\Cashier\Subscription;
 use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
@@ -32,5 +33,17 @@ class User extends Authenticatable
     public function orders()
     {
         return $this->hasMany(Order::class);
+    }
+
+    public function hasActiveSubscription()
+    {
+        return Subscription::where('user_id', $this->id)
+            ->where('stripe_status', 'active');
+    }
+
+    public function activeSubscription()
+    {
+        return Subscription::where('user_id', $this->id)
+            ->where('stripe_status', 'active')->first();
     }
 }

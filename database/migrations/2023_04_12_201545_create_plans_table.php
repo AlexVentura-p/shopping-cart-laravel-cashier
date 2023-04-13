@@ -13,17 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('plans', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();
-            $table->string('address')->default('');
-            $table->string('city')->default('');
-            $table->string('state')->default('');
-            $table->string('zip_code')->default('');
-            $table->string('plan')->default('guest');
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('slug')->unique();
+            $table->string('stripe_plan');
+            $table->decimal('price');
+            $table->string('description');
             $table->timestamps();
         });
     }
@@ -35,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('plans');
     }
 };

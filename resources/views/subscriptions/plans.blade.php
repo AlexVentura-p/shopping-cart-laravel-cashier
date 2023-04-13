@@ -25,14 +25,18 @@
                       <small class="text-gray-500 text-sm">/month </small>
                     </h3>
         
-                    <form  method="post" action="{{url('subscribe')}}">
-                        @csrf
-                        <input type="text" value="basic" name="plan" hidden>
-                        <button type="submit"
+                    <a href="{{url('subscribe/basic-plan')}}">
+                        <button 
                             class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
                             Buy
                         </button>
-                    </form>
+                      </a>
+                      <a href="{{url('subscribe-update/basic-plan')}}" class=" ">
+                        <button 
+                            class=" mt-3 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
+                            Update to this plan
+                        </button>
+                      </a>
                   </div>
                   <div class="p-6">
                     <ol class="list-inside">
@@ -78,14 +82,18 @@
                       <strong>$ 50</strong>
                       <small class="text-gray-500 text-sm">/month</small>
                     </h3>
-                    <form  method="post" action="{{url('subscribe')}}">
-                        @csrf
-                        <input type="text" value="premium" name="plan" hidden>
-                        <button type="submit"
-                            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
-                            Buy
-                        </button>
-                    </form>
+                    <a href="{{url('subscribe/premium-plan')}}">
+                      <button 
+                          class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
+                          Buy
+                      </button>
+                    </a>
+                    <a href="{{url('subscribe-update/premium-plan')}}" class=" ">
+                      <button 
+                          class=" mt-3 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
+                          Update to this plan
+                      </button>
+                    </a>
                   </div>
                   <div class="p-6">
                     <ol class="list-inside">
@@ -150,14 +158,18 @@
                       <small class="text-gray-500 text-sm">/month</small>
                     </h3>
         
-                    <form  method="post" action="{{url('subscribe')}}">
-                        @csrf
-                        <input type="text" value="plus" name="plan" hidden>
-                        <button type="submit"
-                            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
-                            Buy
-                        </button>
-                    </form>
+                    <a href="{{url('subscribe/plus-plan')}}">
+                      <button 
+                          class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
+                          Buy
+                      </button>
+                    </a>
+                    <a href="{{url('subscribe-update/plus-plan')}}" class=" ">
+                      <button 
+                          class=" mt-3 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
+                          Update to this plan
+                      </button>
+                    </a>
                   </div>
                   <div class="p-6">
                     <ol class="list-inside">
@@ -193,6 +205,14 @@
                 </div>
               </div>
             </div>
+          </section>
+          <section class="p-10 border-b border-gray-300 text-center w-auto">
+            <a href="{{url('subscribe-cancel')}}">
+              <button 
+                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-1xl leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full">
+                  Cancel Subscription
+              </button>
+            </a>
           </section>
     </div>
 </x-base-layout>

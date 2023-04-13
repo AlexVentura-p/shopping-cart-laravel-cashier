@@ -24,7 +24,10 @@ Route::get('products/{product:slug}', [ProductController::class, 'show']);
 Route::middleware('auth')->group(function () {
     Route::post('checkout', [StripeController::class, 'checkout']);
     Route::get('checkout-success', [StripeController::class, 'success']);
-    Route::post('subscribe',[SubscriptionController::class,'subscribe']);
+    Route::get('subscribe/{plan:slug}',[SubscriptionController::class,'subscribe']);
+    Route::get('subscribe-update/{plan:slug}',[SubscriptionController::class,'update']);
+    Route::get('subscribe-cancel',[SubscriptionController::class,'cancel']);
+    
 });
 
 Route::get('plans',[SubscriptionController::class,'index']);
