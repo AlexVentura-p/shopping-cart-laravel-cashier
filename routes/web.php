@@ -26,6 +26,7 @@ Route::middleware('auth')->group(function () {
     Route::get('checkout-success', [StripeController::class, 'success']);
     Route::get('subscribe/{plan:slug}',[SubscriptionController::class,'subscribe']);
     Route::get('subscribe-update/{plan:slug}',[SubscriptionController::class,'update']);
+    Route::get('update-page/{plan:slug}',[SubscriptionController::class,'updatePage']);
     Route::get('subscribe-cancel',[SubscriptionController::class,'cancel']);
     
 });

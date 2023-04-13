@@ -10,6 +10,7 @@ use App\Models\Subscription;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Stripe\PaymentIntent;
 
 class SubscriptionController extends Controller
 {
@@ -20,7 +21,9 @@ class SubscriptionController extends Controller
 
     public function subscribe(Plan $plan)
     {
+        
         $user = request()->user();
+        //dd($user->subscriptions()->get());
         $activeSubscription = $user->activeSubscription();
 
         if($activeSubscription){
@@ -29,7 +32,9 @@ class SubscriptionController extends Controller
         }
         
         return $user->newSubscription($plan->name, $plan->stripe_plan)
-            ->checkout();
+            ->checkout([
+                'proration_behavior' => 'none'
+            ]);
         
     }
 
@@ -43,12 +48,13 @@ class SubscriptionController extends Controller
             return redirect()->back();
         }
 
-        $user->subscription($activeSubscription->name)->cancelNow();
-
+        $response = $user->subscription($activeSubscription->name)->cancel();
+        
         $user->plan = 'guest';
         $user->save();
 
-        session()->flash('alert','You were successfully unsubscribed!. ');
+        session()->flash('alert','Your subscription was cancelled!. '.
+        'Your previous plan functionalities will be available until '.$response->ends_at);
         return redirect()->back();
     }
 
@@ -68,10 +74,9 @@ class SubscriptionController extends Controller
             return redirect()->back();
         }
 
-        $user->subscription($activeSubscription->name)->cancelNow();
-
         return $user->newSubscription($plan->name, $plan->stripe_plan)
-            ->checkout();
+        ->checkout();
     }
+
 
 }

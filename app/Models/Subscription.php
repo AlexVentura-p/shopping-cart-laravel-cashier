@@ -11,19 +11,24 @@ class Subscription extends CashierSubscription
 
     protected static function booted()
     {
+
         static::created(function ($subscription) {
             
-            $user = User::find($subscription->user_id);
-
+            $user = $subscription->user;
             $user->plan = $subscription->name . ' plan';
             $user->save();
-        });
 
-        static::updated(function ($subscription) {
-            $user = User::find($subscription->user_id);
+            $existingSubscriptions = $user->subscriptions()->where('stripe_status', 'active')->get();
+            
+            foreach ($existingSubscriptions as $existingSubscription) {
 
-            $user->plan = $subscription->name . ' plan';
-            $user->save();
+                if($existingSubscription->id != $subscription->id)
+                {
+                    $existingSubscription->cancelNow();
+                }
+                
+            }
+
         });
 
         
