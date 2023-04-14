@@ -32,9 +32,7 @@ class SubscriptionController extends Controller
         }
         
         return $user->newSubscription($plan->name, $plan->stripe_plan)
-            ->checkout([
-                'proration_behavior' => 'none'
-            ]);
+            ->checkout();
         
     }
 
