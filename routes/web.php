@@ -2,8 +2,9 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Stripe\StripeController;
+use App\Http\Controllers\Web\Payments\SinglePaymentController;
 use App\Http\Controllers\Web\ProductController;
-use App\Http\Controllers\Web\SubscriptionController;
+use App\Http\Controllers\Web\Payments\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,8 +23,8 @@ Route::get('products', [ProductController::class, 'index']);
 Route::get('products/{product:slug}', [ProductController::class, 'show']);
 
 Route::middleware('auth')->group(function () {
-    Route::post('checkout', [StripeController::class, 'checkout']);
-    Route::get('checkout-success', [StripeController::class, 'success']);
+    Route::post('checkout', [SinglePaymentController::class, 'checkout']);
+    Route::get('checkout-success', [SinglePaymentController::class, 'success']);
     Route::get('subscribe/{plan:slug}',[SubscriptionController::class,'subscribe']);
     Route::get('subscribe-update/{plan:slug}',[SubscriptionController::class,'update']);
     Route::get('update-page/{plan:slug}',[SubscriptionController::class,'updatePage']);

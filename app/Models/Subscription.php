@@ -15,8 +15,7 @@ class Subscription extends CashierSubscription
         static::created(function ($subscription) {
             
             $user = $subscription->user;
-            $user->plan = $subscription->name . ' plan';
-            $user->save();
+            
 
             $existingSubscriptions = $user->subscriptions()->where('stripe_status', 'active')->get();
             
@@ -28,6 +27,9 @@ class Subscription extends CashierSubscription
                 }
                 
             }
+
+            $user->plan = $subscription->name . ' plan';
+            $user->save();
 
         });
 
