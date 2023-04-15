@@ -37,6 +37,11 @@ Docker compose and dockerfile include:
 4. Run `php artisan db:seed PlansSeeder` to seed database with subscription plans used by application.
 5. Run `php artisan db:seed DatabaseSeeder` to seed database with random products
 
+if using docker you may need to set permissions for laravel logs and framework folders
+
+- `chown -R www-data:www-data storage/logs`
+- `chown -R www-data:www-data storage/framework`
+
 ## Stripe CLI configuration
 
 After stripe cli has been installed manually or by using docker
